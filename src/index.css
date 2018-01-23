@@ -1,5 +1,16 @@
-body {
+html, body {
   margin: 0;
-  padding: 0;
+  padding: 50px;
   font-family: sans-serif;
+  height: 100%
+}
+
+#root {
+  height: 600px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 75px;
+  text-align: center;
+
 }

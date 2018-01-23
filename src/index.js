@@ -5,12 +5,14 @@ import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import Square from './components/square'
 import Knight from './components/knight'
+import Board from './components/board'
 
-// ReactDOM.render(<App />, document.getElementById('root'));
 ReactDOM.render(
-    <Square black={true}>
-        <Knight />
-    </Square>, 
+    // <Square black={true}>
+    //     <Knight />
+    // </Square>
+    <Board knightPosition={[7, 4]} />,
     document.getElementById('root')
+
 );
 registerServiceWorker();
